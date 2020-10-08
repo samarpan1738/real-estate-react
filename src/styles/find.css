@@ -1,0 +1,45 @@
+.find-container {
+	max-width: 100%;
+	margin: 32px auto 96px;
+	padding: 1em;
+}
+.find-box-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 1.5em;
+}
+
+.find-box {
+	/* width: 30.33%; */
+	width: 100%;
+	max-width: 313px;
+	margin: 0 1.5em;
+}
+.find-box__title {
+	font-size: 24px;
+	color: rgb(59, 65, 68);
+	margin: 0;
+	margin-bottom: 0.5em;
+}
+
+.find-box__button {
+	padding: 0.75em 0.5em;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	color: darkslategray;
+	cursor: pointer;
+	transition: all 100ms ease-in-out;
+	margin: 0 0.25em;
+	border: none;
+	color: white;
+	width: 175px;
+	background-color: #007882;
+	border: 1px solid #007882;
+}
+.find-box__button:hover {
+	background-color: #e0f7f8;
+	color: #007882;
+}

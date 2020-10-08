@@ -1,0 +1,16 @@
+.section-title {
+	color: rgb(59, 65, 68);
+	font-size: 38px;
+}
+.text {
+	color: darkslategrey;
+	margin-bottom: 0.75em;
+	line-height: 1.5;
+}
+.container {
+	margin: 32px auto 96px;
+}
+h4,
+p {
+	margin: 0;
+}
