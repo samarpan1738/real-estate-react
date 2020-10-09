@@ -1,27 +1,33 @@
 .find-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	max-width: 100%;
 	margin: 32px auto 96px;
 	padding: 1em;
 }
 .find-box-container {
 	width: 100%;
+	max-width: 968px;
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	margin-bottom: 1.5em;
 }
 
 .find-box {
 	/* width: 30.33%; */
 	width: 100%;
-	max-width: 313px;
-	margin: 0 1.5em;
+	max-width: 254px;
+	margin: 0 auto;
 }
 .find-box__title {
 	font-size: 24px;
 	color: rgb(59, 65, 68);
 	margin: 0;
 	margin-bottom: 0.5em;
+	font-weight: 600;
 }
 
 .find-box__button {

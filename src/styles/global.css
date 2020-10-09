@@ -27,4 +27,7 @@ p {
 	.links-list:nth-child(3) {
 		margin-right: 0;
 	}
+	.find-box-container {
+		flex-wrap: wrap;
+	}
 }
