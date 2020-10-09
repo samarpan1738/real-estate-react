@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/global.css";
 import "../styles/footer.css";
+
 function Footer() {
 	return (
 		<div className="footer container">
@@ -93,6 +94,7 @@ function Footer() {
 				height="113"
 				viewBox="0 0 704 113"
 				xmlns="http://www.w3.org/2000/svg"
+				className="footer__svg"
 			>
 				<g fill="none" fill-rule="evenodd">
 					<path

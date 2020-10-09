@@ -9,8 +9,22 @@
 }
 .container {
 	margin: 32px auto 96px;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 h4,
 p {
 	margin: 0;
+}
+@media screen and (max-width: 768px) {
+	.auth {
+		display: none;
+	}
+	.links-list {
+		margin-right: 0;
+		width: 100%;
+	}
+	.links-list:nth-child(3) {
+		margin-right: 0;
+	}
 }

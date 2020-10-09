@@ -5,14 +5,18 @@
 	align-items: center;
 	width: 100%;
 	margin-bottom: 100px;
+	padding: 0 1.5em;
+	box-sizing: border-box;
 }
 .neighborhood__title {
 	margin-bottom: 0.25em;
+	text-align: left;
 }
 .neighborhood__description {
 	max-width: 620px;
 	padding: 1em;
 	width: 100%;
+	text-align: left;
 }
 .card-content:nth-child(3) {
 	/* position: fixed; */
@@ -26,23 +30,25 @@
 .neighborhood__cards__container {
 	margin-bottom: 1em;
 	/* width: 100%; */
-	height: 350px;
+	/* height: 350px; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 0 8px;
+	flex-wrap: wrap;
 }
 .small-container {
-	height: 100%;
+	height: 350px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	padding: 6px 0;
 }
 .neighborhood__card {
 	background-image: url(https://media-cdn.trulia-local.com/neighborhood-media-service-prod/ga/atlanta/downtown/1935-ga_atl_downtown_82792_048_500x_cfit.jpg);
 	width: 280px;
-	height: 100%;
+	height: 350px;
 	/* object-fit: cover; */
 	margin: 0 8px;
 	border-radius: 10px;

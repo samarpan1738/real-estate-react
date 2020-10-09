@@ -1,16 +1,28 @@
 .guides {
+	width: 100%;
 	background-color: #f9ede6;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 90px 0;
+	padding: 90px 2em;
+	flex-wrap: wrap;
+	box-sizing: border-box;
 }
 .guides__header {
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* flex-direction: column; */
 	width: 100%;
 	max-width: 408px;
+	margin-bottom: 1em;
 	/* flex: 0.5; */
 }
 .guides__links-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	width: 100%;
 	max-width: 408px;
 	/* flex: 0.5; */

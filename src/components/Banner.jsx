@@ -9,7 +9,7 @@ function Banner() {
 		activeButton.current = e.target;
 	}
 	return (
-		<div className="banner container">
+		<div className="banner">
 			<h1 className="banner__title">Discover a place you'll love to live</h1>
 			<div className="button__container">
 				<button
